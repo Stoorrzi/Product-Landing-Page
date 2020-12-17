@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50rem;
+    margin-right: 4rem;
+}
+
+#header-img {
+    flex-grow: 10;
+}
+
+.nav-link {
+    flex-grow: 1;
+    text-decoration: none;
+    color: #56377E;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#header {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: static;
+}
+
+#logo {
+    width: 20rem;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
