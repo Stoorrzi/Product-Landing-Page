@@ -1,133 +1,304 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header id="header">
-        <div id="logo">
-        <svg id="header-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="100" viewBox="0 0 158 47.945">
-         <defs>
-           <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 173 166">
-             <image width="173" height="166" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK0AAACmCAYAAACoaA+AAAAACXBIWXMAAAsSAAALEgHS3X78AAACjUlEQVR4nO3doXFbQRRA0ZeMChEINxWzuxBVJ4o6MRVIDzITDQ9QJ854nAo8nlld5xz+57+/e8Giv99eX1+nZr87HmbmkBv8a3lY9DW/NisDOF9PTx98dDszj588Dg0/NgKg5rsdo0a05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWnE10yy53MMP/7rjo+2/JaM/X00W4a+13x2XROh6QI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREtO8s6F/e54mJnDHYxS93y+np5r31C93WY7M493MEdd8rIVxwNyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTnVH9DdZublDuaouxXnT0b77/eUuV9U8jkcD8gRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05LxdFLJdNfR+d/wpmaUu5+vpUht6abQzc1z4bt7lonU8IEe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWnI0t44NeFi3c7S3aPzPzsGiA34vey7vbR9fhfD09LVnDmfkLLagsy+Oho9cAAAAASUVORK5CYII="/>
-           </pattern>
-         </defs>
-         <g id="Gruppe_9857" data-name="Gruppe 9857" transform="translate(-101 -21)">
-           <text id="LiFit_App" data-name="LiFit App" transform="translate(209 55)" fill="#56377e" font-size="25" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="-0.05em"><tspan x="-49.669" y="0">LiFit App</tspan></text>
-           <rect id="Logo_Lila_Transparent" data-name="Logo Lila Transparent" width="50" height="47.945" transform="translate(101 21)" fill="url(#pattern)"/>
-         </g>
-       </svg>
-       </div>
-        <nav id="nav-bar">
-           <ul class="navbar">
-               <li><a class="nav-link" href="#eins">Features</a></li>
-               <li><a class="nav-link" href="#zwei">Teaser</a></li>
-               <li><a class="nav-link" href="#drei">Pricing</a></li>
-               <li><a class="nav-link" href="#vier">Acces-Ticket</a></li>
-           </ul>
-        </nav>
+      <div id="logo">
+        <svg
+          id="header-img"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="250"
+          height="100"
+          viewBox="0 0 158 47.945"
+        >
+          <defs>
+            <pattern
+              id="pattern"
+              preserveAspectRatio="xMidYMid slice"
+              width="100%"
+              height="100%"
+              viewBox="0 0 173 166"
+            >
+              <image
+                width="173"
+                height="166"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK0AAACmCAYAAACoaA+AAAAACXBIWXMAAAsSAAALEgHS3X78AAACjUlEQVR4nO3doXFbQRRA0ZeMChEINxWzuxBVJ4o6MRVIDzITDQ9QJ854nAo8nlld5xz+57+/e8Giv99eX1+nZr87HmbmkBv8a3lY9DW/NisDOF9PTx98dDszj588Dg0/NgKg5rsdo0a05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWnE10yy53MMP/7rjo+2/JaM/X00W4a+13x2XROh6QI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREtO8s6F/e54mJnDHYxS93y+np5r31C93WY7M493MEdd8rIVxwNyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTnVH9DdZublDuaouxXnT0b77/eUuV9U8jkcD8gRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05LxdFLJdNfR+d/wpmaUu5+vpUht6abQzc1z4bt7lonU8IEe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWnI0t44NeFi3c7S3aPzPzsGiA34vey7vbR9fhfD09LVnDmfkLLagsy+Oho9cAAAAASUVORK5CYII="
+              />
+            </pattern>
+          </defs>
+          <g
+            id="Gruppe_9857"
+            data-name="Gruppe 9857"
+            transform="translate(-101 -21)"
+          >
+            <text
+              id="LiFit_App"
+              data-name="LiFit App"
+              transform="translate(209 55)"
+              fill="#56377e"
+              font-size="25"
+              font-family="OpenSans-Bold, Open Sans"
+              font-weight="700"
+              letter-spacing="-0.05em"
+            >
+              <tspan x="-49.669" y="0">LiFit App</tspan>
+            </text>
+            <rect
+              id="Logo_Lila_Transparent"
+              data-name="Logo Lila Transparent"
+              width="50"
+              height="47.945"
+              transform="translate(101 21)"
+              fill="url(#pattern)"
+            />
+          </g>
+        </svg>
+      </div>
+      <nav id="nav-bar">
+        <ul class="navbar">
+          <li><a class="nav-link" href="#eins">Features</a></li>
+          <li><a class="nav-link" href="#zwei">Teaser</a></li>
+          <li><a class="nav-link" href="#drei">Pricing</a></li>
+          <li><a class="nav-link" href="#vier">Acces-Ticket</a></li>
+        </ul>
+      </nav>
     </header>
 
     <div class="sektionen">
-        <section >
-            <div class="big-box">
-            <section id="eins">
-                <div class="icon-text">
-                    <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 47.945">
-                            <defs>
-                              <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 173 166">
-                                <image width="173" height="166" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK0AAACmCAYAAACoaA+AAAAACXBIWXMAAAsSAAALEgHS3X78AAACjUlEQVR4nO3doXFbQRRA0ZeMChEINxWzuxBVJ4o6MRVIDzITDQ9QJ854nAo8nlld5xz+57+/e8Giv99eX1+nZr87HmbmkBv8a3lY9DW/NisDOF9PTx98dDszj588Dg0/NgKg5rsdo0a05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWnE10yy53MMP/7rjo+2/JaM/X00W4a+13x2XROh6QI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREtO8s6F/e54mJnDHYxS93y+np5r31C93WY7M493MEdd8rIVxwNyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTnVH9DdZublDuaouxXnT0b77/eUuV9U8jkcD8gRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05LxdFLJdNfR+d/wpmaUu5+vpUht6abQzc1z4bt7lonU8IEe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWnI0t44NeFi3c7S3aPzPzsGiA34vey7vbR9fhfD09LVnDmfkLLagsy+Oho9cAAAAASUVORK5CYII="/>
-                              </pattern>
-                            </defs>
-                            <rect id="Logo_Lila_Transparent" data-name="Logo Lila Transparent" width="50" height="47.945" fill="url(#pattern)"/>
-                          </svg>
-                          </div>
-                     <div class="details">
-                        <h2 class="abstand">Why use LiFit Fitness-Scoial-Network</h2>
-                        <p>LiFit App give you the unique opportunity to improve your life in the domains of nutrition, workouts and social</p>
-                    </div>
-                </div>
-                <div class="icon-text">
-                    <div class="icon">
-                        <svg id="Icon_ionic-ios-nutrition" data-name="Icon ionic-ios-nutrition" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 16.683 18.072">
-                            <path id="Pfad_165" data-name="Pfad 165" d="M17.32,13.876h0a.135.135,0,0,1-.017-.026L13.87,10.392h0a1.436,1.436,0,0,0-1.025-.443,1.354,1.354,0,0,0-1.2.708h0s-.148.222-.547.86a.351.351,0,0,0,0,.374l1.164,1.79c.126.165.143.348.061.43l0,0c-.1.1-.256.065-.426-.061l-1.4-.891a.351.351,0,0,0-.482.109c-.951,1.525-2.033,3.245-3.093,4.952a.347.347,0,0,0,0,.361l.613,1.047c.126.165.143.348.061.43l0,0c-.1.1-.256.065-.426-.061l-.721-.365a.347.347,0,0,0-.452.126C5.212,21,4.765,21.709,4.717,21.787h0a1.529,1.529,0,0,0-.217.773,1.39,1.39,0,0,0,1.386,1.4,1.59,1.59,0,0,0,.895-.33l4.54-3.371a.348.348,0,0,0,.087-.465L10.517,18.4c-.126-.165-.143-.348-.061-.43l0,0c.1-.1.256-.065.426.061l1.625,1.112a.346.346,0,0,0,.4-.009c2.3-1.7,4.236-3.136,4.236-3.136h0a1.415,1.415,0,0,0,.565-1.129,1.364,1.364,0,0,0-.4-.986Z" transform="translate(-4.5 -5.887)" fill="#56377E"/>
-                            <path id="Pfad_166" data-name="Pfad 166" d="M28.107,6.989l-.487-.778a.347.347,0,0,0-.474-.126l-2.58,1.59,2.055-3.428A.352.352,0,0,0,26.5,3.77l-.769-.348a.345.345,0,0,0-.478.13l-2.5,4.7,1.242,1.251,3.988-2.033A.354.354,0,0,0,28.107,6.989Z" transform="translate(-11.473 -3.374)" fill="#56377E"/>
-                          </svg>                                                  
-                    </div>
-                <div class="details">
-                    <h2 class="abstand">Nutrition</h2>
-                    <p>Keep track of your consumed foods and expand your knowledge with new recipes and blog posts</p>
-                </div>
-                </div>
-                <div class="icon-text">
-                    <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 18.831 10.761">
-                            <g id="Icon_ionic-ios-fitness" data-name="Icon ionic-ios-fitness" transform="translate(-2.25 -9)">
-                              <path id="Pfad_160" data-name="Pfad 160" d="M19.094,18.33H11.024a.337.337,0,0,1-.336-.336V16.649a.337.337,0,0,1,.336-.336h8.071a.337.337,0,0,1,.336.336v1.345A.337.337,0,0,1,19.094,18.33Z" transform="translate(-3.393 -2.941)" fill="#56377E"/>
-                              <path id="Pfad_161" data-name="Pfad 161" d="M26.578,18.836V9.925A.927.927,0,0,1,27.5,9h0a.927.927,0,0,1,.925.925v8.911a.927.927,0,0,1-.925.925h0A.927.927,0,0,1,26.578,18.836Z" transform="translate(-9.784)" fill="#56377E"/>
-                              <path id="Pfad_162" data-name="Pfad 162" d="M31.778,13.5h-.5a.337.337,0,0,0-.336.336v4.708a.337.337,0,0,0,.336.336h.5a.843.843,0,0,0,.841-.841v-3.7A.843.843,0,0,0,31.778,13.5Z" transform="translate(-11.538 -1.81)" fill="#56377E"/>
-                              <path id="Pfad_163" data-name="Pfad 163" d="M8.178,18.836V9.925A.927.927,0,0,0,7.253,9h0a.927.927,0,0,0-.925.925v8.911a.927.927,0,0,0,.925.925h0A.927.927,0,0,0,8.178,18.836Z" transform="translate(-1.64)" fill="#56377E"/>
-                              <path id="Pfad_164" data-name="Pfad 164" d="M3.6,13.5h-.5a.843.843,0,0,0-.841.841v3.7a.843.843,0,0,0,.841.841h.5a.337.337,0,0,0,.336-.336V13.836A.337.337,0,0,0,3.6,13.5Z" transform="translate(0 -1.81)" fill="#56377E"/>
-                            </g>
-                          </svg>                          
-                    </div>
-                <div class="details">
-                    <h2 class="abstand">Workouts</h2>
-                    <p>Improve your workouts with our in-built workout coach and discover new exercises or share your own</p>
-                </div>
-                </div>
-                <div class="icon-text">
-                    <div class="icon">
-                        <svg id="Icon_ionic-ios-chatboxes" data-name="Icon ionic-ios-chatboxes" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 17.491 17.494">
-                            <path id="Pfad_158" data-name="Pfad 158" d="M22.608,11.981h-9.32a1.6,1.6,0,0,0-1.6,1.6v6.489a1.6,1.6,0,0,0,1.6,1.6h5.333a.46.46,0,0,1,.32.135l2.65,2.443c.147.143.391.084.391-.122V22c0-.252.16-.332.412-.332h.042a1.751,1.751,0,0,0,1.771-1.6V13.584A1.6,1.6,0,0,0,22.608,11.981Z" transform="translate(-6.715 -6.834)" fill="#56377E"/>
-                            <path id="Pfad_159" data-name="Pfad 159" d="M8.691,7.492h7.461V4.746a1.371,1.371,0,0,0-1.371-1.371H4.746A1.371,1.371,0,0,0,3.375,4.746v6.948a1.371,1.371,0,0,0,1.371,1.371h2.57v-4.2A1.378,1.378,0,0,1,8.691,7.492Z" transform="translate(-3.375 -3.375)" fill="#56377E"/>
-                          </svg>                          
-                    </div>
-                <div class="details">
-                    <h2 class="abstand">Social</h2>
-                    <p>Safe havens to meet like-minded people and places for discussions and shared victories and knowledge</p>
-                </div>
-                </div>
-            </section>
+      <section>
+        <div class="big-box">
+          <section id="eins">
+            <div class="icon-text">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 50 47.945"
+                >
+                  <defs>
+                    <pattern
+                      id="pattern"
+                      preserveAspectRatio="xMidYMid slice"
+                      width="100%"
+                      height="100%"
+                      viewBox="0 0 173 166"
+                    >
+                      <image
+                        width="173"
+                        height="166"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK0AAACmCAYAAACoaA+AAAAACXBIWXMAAAsSAAALEgHS3X78AAACjUlEQVR4nO3doXFbQRRA0ZeMChEINxWzuxBVJ4o6MRVIDzITDQ9QJ854nAo8nlld5xz+57+/e8Giv99eX1+nZr87HmbmkBv8a3lY9DW/NisDOF9PTx98dDszj588Dg0/NgKg5rsdo0a05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWnE10yy53MMP/7rjo+2/JaM/X00W4a+13x2XROh6QI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREtO8s6F/e54mJnDHYxS93y+np5r31C93WY7M493MEdd8rIVxwNyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTnVH9DdZublDuaouxXnT0b77/eUuV9U8jkcD8gRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05LxdFLJdNfR+d/wpmaUu5+vpUht6abQzc1z4bt7lonU8IEe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWHNGSI1pyREuOaMkRLTmiJUe05IiWnI0t44NeFi3c7S3aPzPzsGiA34vey7vbR9fhfD09LVnDmfkLLagsy+Oho9cAAAAASUVORK5CYII="
+                      />
+                    </pattern>
+                  </defs>
+                  <rect
+                    id="Logo_Lila_Transparent"
+                    data-name="Logo Lila Transparent"
+                    width="50"
+                    height="47.945"
+                    fill="url(#pattern)"
+                  />
+                </svg>
+              </div>
+              <div class="details">
+                <h2 class="abstand">Why use LiFit Fitness-Scoial-Network</h2>
+                <p>
+                  LiFit App give you the unique opportunity to improve your life
+                  in the domains of nutrition, workouts and social
+                </p>
+              </div>
             </div>
-
-            <section id="zwei">
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/3lcki15bjSU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </section>
-
-            <div class="box">
-            <section id="drei">
-                <div class="price" id="tenor">
-                    <div id="farbe">
-                    <h1>LiFit-App</h1>
-                    </div>
-                    <h2>Free</h2>
-                    <ul id="liste">
-                        <li class="beschreibung">Nutrition</li>
-                        <li class="beschreibung">Workouts</li>
-                        <li class="beschreibung">Social</li>
-                    </ul>
-                    <button class="button">SELECT</button>
-                </div>
-            </section>
+            <div class="icon-text">
+              <div class="icon">
+                <svg
+                  id="Icon_ionic-ios-nutrition"
+                  data-name="Icon ionic-ios-nutrition"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 16.683 18.072"
+                >
+                  <path
+                    id="Pfad_165"
+                    data-name="Pfad 165"
+                    d="M17.32,13.876h0a.135.135,0,0,1-.017-.026L13.87,10.392h0a1.436,1.436,0,0,0-1.025-.443,1.354,1.354,0,0,0-1.2.708h0s-.148.222-.547.86a.351.351,0,0,0,0,.374l1.164,1.79c.126.165.143.348.061.43l0,0c-.1.1-.256.065-.426-.061l-1.4-.891a.351.351,0,0,0-.482.109c-.951,1.525-2.033,3.245-3.093,4.952a.347.347,0,0,0,0,.361l.613,1.047c.126.165.143.348.061.43l0,0c-.1.1-.256.065-.426-.061l-.721-.365a.347.347,0,0,0-.452.126C5.212,21,4.765,21.709,4.717,21.787h0a1.529,1.529,0,0,0-.217.773,1.39,1.39,0,0,0,1.386,1.4,1.59,1.59,0,0,0,.895-.33l4.54-3.371a.348.348,0,0,0,.087-.465L10.517,18.4c-.126-.165-.143-.348-.061-.43l0,0c.1-.1.256-.065.426.061l1.625,1.112a.346.346,0,0,0,.4-.009c2.3-1.7,4.236-3.136,4.236-3.136h0a1.415,1.415,0,0,0,.565-1.129,1.364,1.364,0,0,0-.4-.986Z"
+                    transform="translate(-4.5 -5.887)"
+                    fill="#56377E"
+                  />
+                  <path
+                    id="Pfad_166"
+                    data-name="Pfad 166"
+                    d="M28.107,6.989l-.487-.778a.347.347,0,0,0-.474-.126l-2.58,1.59,2.055-3.428A.352.352,0,0,0,26.5,3.77l-.769-.348a.345.345,0,0,0-.478.13l-2.5,4.7,1.242,1.251,3.988-2.033A.354.354,0,0,0,28.107,6.989Z"
+                    transform="translate(-11.473 -3.374)"
+                    fill="#56377E"
+                  />
+                </svg>
+              </div>
+              <div class="details">
+                <h2 class="abstand">Nutrition</h2>
+                <p>
+                  Keep track of your consumed foods and expand your knowledge
+                  with new recipes and blog posts
+                </p>
+              </div>
             </div>
-
-            <section id="vier">
-            <div class="enter-lifit">
-                <h2 id="ha2">LiFit App Launch Ticket</h2>
-                <p id="pe">Submit your E-Mail to recive limited acces-ticket</p>
-                <form  class="form" action="https://www.freecodecamp.com/email-submit" id="form">
-                    <input type="email" name="E-Mail-Adresse" id="email" placeholder="Enter E-Mail here...">
-                    <input class="button" type="sumbit" value="Submit E-Mail" id="submit">
-                </form>
+            <div class="icon-text">
+              <div class="icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 18.831 10.761"
+                >
+                  <g
+                    id="Icon_ionic-ios-fitness"
+                    data-name="Icon ionic-ios-fitness"
+                    transform="translate(-2.25 -9)"
+                  >
+                    <path
+                      id="Pfad_160"
+                      data-name="Pfad 160"
+                      d="M19.094,18.33H11.024a.337.337,0,0,1-.336-.336V16.649a.337.337,0,0,1,.336-.336h8.071a.337.337,0,0,1,.336.336v1.345A.337.337,0,0,1,19.094,18.33Z"
+                      transform="translate(-3.393 -2.941)"
+                      fill="#56377E"
+                    />
+                    <path
+                      id="Pfad_161"
+                      data-name="Pfad 161"
+                      d="M26.578,18.836V9.925A.927.927,0,0,1,27.5,9h0a.927.927,0,0,1,.925.925v8.911a.927.927,0,0,1-.925.925h0A.927.927,0,0,1,26.578,18.836Z"
+                      transform="translate(-9.784)"
+                      fill="#56377E"
+                    />
+                    <path
+                      id="Pfad_162"
+                      data-name="Pfad 162"
+                      d="M31.778,13.5h-.5a.337.337,0,0,0-.336.336v4.708a.337.337,0,0,0,.336.336h.5a.843.843,0,0,0,.841-.841v-3.7A.843.843,0,0,0,31.778,13.5Z"
+                      transform="translate(-11.538 -1.81)"
+                      fill="#56377E"
+                    />
+                    <path
+                      id="Pfad_163"
+                      data-name="Pfad 163"
+                      d="M8.178,18.836V9.925A.927.927,0,0,0,7.253,9h0a.927.927,0,0,0-.925.925v8.911a.927.927,0,0,0,.925.925h0A.927.927,0,0,0,8.178,18.836Z"
+                      transform="translate(-1.64)"
+                      fill="#56377E"
+                    />
+                    <path
+                      id="Pfad_164"
+                      data-name="Pfad 164"
+                      d="M3.6,13.5h-.5a.843.843,0,0,0-.841.841v3.7a.843.843,0,0,0,.841.841h.5a.337.337,0,0,0,.336-.336V13.836A.337.337,0,0,0,3.6,13.5Z"
+                      transform="translate(0 -1.81)"
+                      fill="#56377E"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <div class="details">
+                <h2 class="abstand">Workouts</h2>
+                <p>
+                  Improve your workouts with our in-built workout coach and
+                  discover new exercises or share your own
+                </p>
+              </div>
             </div>
-            </section>
-            </section>
+            <div class="icon-text">
+              <div class="icon">
+                <svg
+                  id="Icon_ionic-ios-chatboxes"
+                  data-name="Icon ionic-ios-chatboxes"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="50"
+                  height="50"
+                  viewBox="0 0 17.491 17.494"
+                >
+                  <path
+                    id="Pfad_158"
+                    data-name="Pfad 158"
+                    d="M22.608,11.981h-9.32a1.6,1.6,0,0,0-1.6,1.6v6.489a1.6,1.6,0,0,0,1.6,1.6h5.333a.46.46,0,0,1,.32.135l2.65,2.443c.147.143.391.084.391-.122V22c0-.252.16-.332.412-.332h.042a1.751,1.751,0,0,0,1.771-1.6V13.584A1.6,1.6,0,0,0,22.608,11.981Z"
+                    transform="translate(-6.715 -6.834)"
+                    fill="#56377E"
+                  />
+                  <path
+                    id="Pfad_159"
+                    data-name="Pfad 159"
+                    d="M8.691,7.492h7.461V4.746a1.371,1.371,0,0,0-1.371-1.371H4.746A1.371,1.371,0,0,0,3.375,4.746v6.948a1.371,1.371,0,0,0,1.371,1.371h2.57v-4.2A1.378,1.378,0,0,1,8.691,7.492Z"
+                    transform="translate(-3.375 -3.375)"
+                    fill="#56377E"
+                  />
+                </svg>
+              </div>
+              <div class="details">
+                <h2 class="abstand">Social</h2>
+                <p>
+                  Safe havens to meet like-minded people and places for
+                  discussions and shared victories and knowledge
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
+
+        <section id="zwei">
+          <iframe
+            width="600"
+            height="400"
+            src="https://www.youtube.com/embed/3lcki15bjSU"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <div class="box">
+          <section id="drei">
+            <div class="price" id="tenor">
+              <div id="farbe">
+                <h1>LiFit-App</h1>
+              </div>
+              <h2>Free</h2>
+              <ul id="liste">
+                <li class="beschreibung">Nutrition</li>
+                <li class="beschreibung">Workouts</li>
+                <li class="beschreibung">Social</li>
+              </ul>
+              <button class="button">SELECT</button>
+            </div>
+          </section>
+        </div>
+
+        <section id="vier">
+          <div class="enter-lifit">
+            <h2 id="ha2">LiFit App Launch Ticket</h2>
+            <p id="pe">Submit your E-Mail to recive limited acces-ticket</p>
+            <form
+              class="form"
+              action="https://www.freecodecamp.com/email-submit"
+              id="form"
+            >
+              <input
+                type="email"
+                name="E-Mail-Adresse"
+                id="email"
+                placeholder="Enter E-Mail here..."
+              />
+              <input
+                class="button"
+                type="sumbit"
+                value="Submit E-Mail"
+                id="submit"
+              />
+            </form>
+          </div>
+        </section>
+      </section>
+    </div>
     <footer id="footer">Copyright 2020, LiFit.app</footer>
-</body>
+  </body>
 </html>

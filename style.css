@@ -1,186 +1,185 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 50rem;
-    margin-right: 4rem;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50rem;
+  margin-right: 4rem;
 }
 
 #header-img {
-    flex-grow: 10;
+  flex-grow: 10;
 }
 
 .nav-link {
-    flex-grow: 1;
-    text-decoration: none;
-    color: #56377E;
-    font-size: 1.3rem;
-    font-weight: bold;
+  flex-grow: 1;
+  text-decoration: none;
+  color: #56377e;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 #header {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    background-color: #F8F8F8;
-    margin-top: -10px;
-    padding: 0px;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #f8f8f8;
+  margin-top: -10px;
+  padding: 0px;
 }
 
 #logo {
-    width: 20rem;
+  width: 20rem;
 }
 
 .details {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-content: flex-start;
-    width: 45rem;
-    font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  width: 45rem;
+  font-size: 1.3rem;
 }
 
 .icon-text {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 3rem;
-    margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  margin-bottom: 5rem;
 }
 
 .icon {
-    color: #56377E;
+  color: #56377e;
 }
 
 #eins {
-    margin-top: 10rem;
-    width: 55rem;
+  margin-top: 10rem;
+  width: 55rem;
 }
 
 .big-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .abstand {
-    margin-bottom: -1rem;
+  margin-bottom: -1rem;
 }
 
 #zwei {
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
 }
 
 #drei {
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
-    border: 2px solid #000000;
-    width: 20rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  border: 2px solid #000000;
+  width: 20rem;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .price {
-    width: 30rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #farbe {
-    background-color: lightgrey;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    font-size: 1.3rem;
+  background-color: lightgrey;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 1.3rem;
 }
 
 #liste {
-    list-style: outside none none ;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-right: 2rem;
-    text-align: center;
-    
+  list-style: outside none none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 2rem;
+  text-align: center;
 }
 
 .beschreibung {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .button {
-    background-color: #F6C33F;
-    margin: 0.5rem;
-    padding: 10px 20px 10px 20px;
-    font-size: 1.3rem;
-    border: none;
-    margin-bottom: 2rem;
-    width: 8rem;
-    text-align: center;
+  background-color: #f6c33f;
+  margin: 0.5rem;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.3rem;
+  border: none;
+  margin-bottom: 2rem;
+  width: 8rem;
+  text-align: center;
 }
 
 .button:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 #vier {
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #footer {
-    display: flex;
-    justify-content: center;
-    background-color: #F8F8F8;
-    margin-top: 20rem;
-    height: 8rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    align-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8;
+  margin-top: 20rem;
+  height: 8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-content: center;
+  align-items: center;
 }
 
 .form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 30rem;
-    align-items: center;
-    margin-left: 2rem;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 30rem;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 2rem;
 }
 
 #email {
-    padding: 10px 100px 10px 10px;
+  padding: 10px 100px 10px 10px;
 }
 
 #ha2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 #pe {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
